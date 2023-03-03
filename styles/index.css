@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+/*#996998
+#b988b8
+#d0a3cf
+#dcbadb
+#e8d1e7
+*/
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	cursor: url(../icons/pointer.png), progress;
+	font-family: 'DM Sans', sans-serif;
+	background-color: #202020;
+	color:  #E8EAEB;
+	font-weight:1px;
+}
+.laia{
+	color:  #5dc1b9;
+	width: 250px;
+	margin-top: 1%;
+	margin-left: 3% ;
+	background-color: #202020;
+
+}
+.li_header{
+	list-style-type: none;
+	padding-left: 7%;
+	font-size: 2.5vh;
+	transition: .3s;
+}
+.li_header:hover a{
+color:#5dc1b9
+}
+
+.li_header::after {
+	content: "";
+	display: block;
+	height: 1px;
+	background-color: #5dc1b9;
+	transform: scale(0,1);
+	transform-origin: center;
+	transition: transform .25s;
+  }
+  
+  .li_header:hover::after {
+	transform: scale(1,1);
+  }
+
+header{
+	display:  flex;
+	height: 10%;
+	width: 100%;
+	background-color: #202020;
+	position: fixed;
+	z-index: 99999999999 !important;
+}
+
+.ul_header{
+	display: flex;
+	width: 100%;
+	float: right;
+	margin-left:  25%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	background-color: #202020;
+}
+
+.ul_header  a{
+text-decoration: none;
+/* padding-left: 7%; */
+/* width: 100%; */
+transition: .3s;
+
+
+}
+
+.presentacion{
+	width: 280px;
+	height: 380px;
+	margin-left: 7%;
+	border-radius: 15px;
+	background-color: inherit;
+	z-index: 100;
+	margin-top: 2%;
+}
+
+.img_presentacion{
+	width: 150px;
+	margin-top: 50px;
+	transform: scale(1.8) 
+}
+.contenedor_img_presentacion{
+	/* width: 150px; */
+	/*height: 150px;*/
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 60%;
+	margin-top: 3%;
+	border:  10px solid #5dc1b9;
+	overflow: hidden;
+}
+.contenedor_presentacion{
+	width: 100%;
+	height: 100%;
+}
+
+
+.presentacion_titulo{
+	margin-left: 23%;
+	margin-top: 5%;
+}
+
+.presentacion_botones{
+	border-radius: 50%;
+	border: 0.5px solid grey;
+	width: 40px;
+	height: 40px;
+	margin-top: 5%;
+	transition: 1s;
+}
+
+.contenedor_presentacion i{
+	background-color: inherit;
+	transition: 1s;
+}
+
+.presentacion_botones:hover{
+background-color: #5dc1b9;
+}
+
+.presentacion_botones:hover i{
+	background-color: inherit;
+}
+
+.presentacion_parrafo{
+	margin-left: 10%;
+}
+
+.boton1{
+	margin-left: 30%;
+
+}
+
+.boton2{
+	margin-left: 5%;
+
+}
+/*-----------------------------------------------------------*/
+.titulo_datos_personales{
+	width: 100%;
+}
+.contenedor_sobre_mi{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+overflow: hidden;
+margin-bottom: 7%;
+height: 30%;
+}
+.sobre_mi_titulo{
+	margin-left: 40%;
+	margin-bottom: 2%;
+	margin-top: 7%;
+}
+.sobre_mi_img{
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.05;
+}
+
+
+.contenedor_datos_personales{
+	width: 400px;
+	margin-left: 18%;
+	height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	border-radius: 15px;
+	margin-top: 4%;
+	z-index: 100;
+}
+
+.datos_personales_props{
+	list-style-type: none;
+	margin-right: 23%;
+	margin-left: 3%;
+	color: #5dc1b9;
+}
+
+.datos_personales_props > li  > strong{
+	color: #5dc1b9;
+}
+.datos_personales_props > li{
+	margin-bottom: 10px;
+}
+.datos_personales_values{
+	list-style-type: none;
+
+}
+
+.datos_personales_values > li{
+	margin-bottom: 10px;
+
+}
+
+.sobre_mi_parrafo{
+	width: 100%;
+	z-index: 100;
+	background-color: transparent;
+	padding: 0 5%;
+}
+
+.sobre_mi_cv{
+	width: 100%;
+	margin-left: 40%;
+}
+
+.contiene_datos_y_intereses{
+	margin-left: 30%;
+}
+
+.titulo_datos_personales{
+	margin-left: 25%;
+	border-radius: 15px;
+
+}
+/*----------------------------------------------------*/
+
+
+
+/* ------------------------------------------------------------ */
+/*** ESTILOS BOTÓN GROW SKEW ***/
+.ov-btn-grow-skew {
+	background: inherit; /* color de fondo */
+	color: #5dc1b9; /* color de fuente */
+	border: 2px solid #5dc1b9;; /* tamaño y color de borde */
+	padding: 7px 24px;
+	border-radius: 3px; /* redondear bordes */
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	display: inline-block;
+	text-decoration: none;
+	width: 150px;
+	height: 40px;
+  }
+  .ov-btn-grow-skew:hover {
+	color: #fff;/* color de fuente hover */
+  }
+  .ov-btn-grow-skew::after {
+	content: "";
+	background: #5dc1b9; /* color de fondo hover */
+	position: absolute;
+	z-index: -1;
+	padding: 16px 20px;
+	display: block;
+	left: -20%;
+	right: -20%;
+	top: 0;
+	bottom: 0;
+	transform: skewX(-45deg) scale(0, 1);
+	transition: all 0.3s ease;
+  }
+  .ov-btn-grow-skew:hover::after {
+	transition: all 0.3s ease-out;
+	transform: skewX(-45deg) scale(1, 1);
+  }
+
+  /* ----------------------------CURRICULUM EDUCACION---------------
+   */
+
+.curriculum{
+	display: flex;
+	color:  #E8EAEB;
+	/* height: 800px; */
+}
+.fondo{
+	position: absolute;
+	font-size: 12vh;
+	z-index: 1;
+	-webkit-text-fill-color: #202020;
+	-webkit-text-stroke: 1px #5dc1b9;
+	opacity: .3;
+	transform: rotate(90deg);
+	left: 73%;
+	margin-top: 10%;
+}
+   .curriculum{
+	background-color: inherit;
+	z-index: 65556565 !important ;
+	position: relative;
+	/* height: 500px; */
+	display: grid;
+	grid-template-areas: "curriculum_h2_1 curriculum_h2_1"
+						"curriculum_h2_2 curriculum_h2_3"
+						" contenedor_educacion contenedor_experiencia";
+	grid-template-rows: 50px 50px;
+   }
+
+   
+   .curriculum_h2_1{
+	z-index: 999999999;
+	grid-area: curriculum_h2_1 ;
+	margin-left: 40%;
+	color: #8ae0db;
+	margin-top: 3%;
+   }
+
+   .curriculum_h2_2{
+	grid-area: curriculum_h2_2;
+	margin-left: 40%;
+	margin-top: 3.8%;
+
+   }
+
+   .curriculum_h2_3{
+	grid-area: curriculum_h2_3;
+	margin-left:20%;
+	margin-top: 2%;
+   }
+
+   .contenedor_educacion{
+	width: 600px;
+	color:  #E8EAEB;
+	margin-left: 10%;
+	margin-top: 6%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.educacion_card{
+	width: 250px;
+	height: 200px;
+	background-color: #262626;
+	margin-left: 5%;
+	margin-top: 3%;
+	z-index: 7;
+}
+
+.educacion_card strong{
+	font-size: 3.5vh;
+	background-color: inherit;
+	margin-left: 7%;
+}
+
+.card_fecha{
+	font-size: 2vh;
+	position: absolute;
+	transform: rotate(90deg);
+	margin-left: -3%;
+	margin-top: 5%;
+	color: #8ae0db;
+	background-color: inherit;
+}
+
+.card_escuela{
+	margin-left: 13%;
+	background-color: #5dc1b9;
+	color: rgb(53, 53, 53);
+	border-radius: 3px;
+	width: 100px;
+	float: right;
+	margin-top: 4%;
+	margin-right: 2%;
+}
+
+.fecha_colegio{
+	margin-left: -2%;
+	color: #8ae0db;
+	background-color: inherit;
+}
+
+.escuela_fati{
+width: 100%;
+margin-right: 0%;
+}
+.educacion_card div{
+	margin-left: 15%;
+	background-color: inherit;
+	margin-top: 10% !important;
+	color: #818181;
+
+}
+   /*--------------------------CURRICULUM EXPERIENCIA------------------------------------------------------------*/
+   .li_experiencia{
+   	list-style-type: none;
+   	padding-right: 30px;
+	padding-left: 30px;
+   }
+
+   .contenedor_experiencia{
+	width: 380px;
+	/* border: 1px solid #000; */
+	margin-top: 8%;
+	margin-left: 8%;
+	color:  #E8EAEB;
+	height: 210px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: transparent;
+	position: relative;
+	grid-area: contenedor_experiencia;
+	z-index: 5;
+}
+
+.contenedor_experiencia > div{
+	backface-visibility: hidden;
+	transition: 1s;
+}
+
+.icon_henry{
+	width: 30px;
+	height: 20px;
+	margin-left: 3%;
+	margin-top: 2%;
+}
+
+.experiencia_titulo{
+	font-size: 4vh;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: inherit;
+	margin-top: 2%;
+}
+
+.experiencia_descripcion_titulo{
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 10px;
+	color: #5dc1b9;
+	background-color: inherit;
+}
+.experiencia_descripcion_titulo > strong{
+	color: #5dc1b9;
+	background-color: inherit;
+}
+
+.experiencia_nombre_empresa{
+	font-size: 2.2vh;
+	margin-left: 13%;
+	top: 3%;
+	background-color: inherit;
+	position: absolute;
+}
+.contenedor_experiencia_front{
+	background-color: #262626;
+	position: absolute;
+	height: 220px;
+	border-top: 4px solid #5dc1b9;
+	transform: perspective(500px) rotateY(0deg);
+}
+
+.contenedor_experiencia_back{
+	background-color: #262626;
+	position: absolute;
+	border-top: 4px solid #5dc1b9;
+	transform: perspective(500px) rotateY(180deg);
+}
+
+.contenedor_experiencia:hover .contenedor_experiencia_front{
+	transform: perspective(500px) rotateY(180deg);
+}
+
+.contenedor_experiencia:hover .contenedor_experiencia_back{
+	transform: perspective(500px) rotateY(360deg);
+}
+
+.fecha{
+	margin-top: 3%;
+}
+ .ul_experiencia{
+	background: inherit;
+
+} 
+
+.li_experiencia{
+	background: inherit;
+	font-size: 97%;
+} 
+
+.p_experiencia_back{
+	margin-left: 40%;
+	background-color: inherit;
+	font-size: 3vh;
+}
+
