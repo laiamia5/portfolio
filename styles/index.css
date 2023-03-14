@@ -323,11 +323,11 @@ height: 30%;
    .curriculum_h2_3{
 	grid-area: curriculum_h2_3;
 	margin-left:20%;
-	margin-top: 2%;
+	margin-top: 4vh;
    }
 
    .contenedor_educacion{
-	width: 600px;
+	width: 50vw;
 	color:  #E8EAEB;
 	margin-left: 10%;
 	margin-top: 6%;
@@ -336,8 +336,8 @@ height: 30%;
 }
 
 .educacion_card{
-	width: 250px;
-	height: 200px;
+	width: 18vw;
+	height: 150px;
 	background-color: #262626;
 	margin-left: 5%;
 	margin-top: 3%;
@@ -347,15 +347,15 @@ height: 30%;
 .educacion_card strong{
 	font-size: 3.5vh;
 	background-color: inherit;
-	margin-left: 7%;
+	margin-left: 1vw;
 }
 
 .card_fecha{
 	font-size: 2vh;
 	position: absolute;
 	transform: rotate(90deg);
-	margin-left: -3%;
-	margin-top: 5%;
+	margin-left: -1.3vw;
+	margin-top: 6vh;
 	color: #8ae0db;
 	background-color: inherit;
 }
@@ -378,7 +378,7 @@ height: 30%;
 }
 
 .escuela_fati{
-width: 100%;
+width: 90%;
 margin-right: 0%;
 }
 .educacion_card div{
@@ -399,7 +399,7 @@ margin-right: 0%;
 	width: 380px;
 	/* border: 1px solid #000; */
 	margin-top: 8%;
-	margin-left: 8%;
+	/* margin-left: 5%; */
 	color:  #E8EAEB;
 	height: 210px;
 	display: flex;
