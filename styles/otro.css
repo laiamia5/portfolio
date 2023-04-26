@@ -487,6 +487,9 @@ header{
 @media (max-width: 1505px){
 
 } */
+.row{
+    display: none;
+}
 
 @media (min-width: 1810px){
     .presentacion{
@@ -608,5 +611,25 @@ header{
         margin-top: 4%;
     }
 
+    .contenedor_skills{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        height: 150px;
+    }
+
+    .contenedor_icon{
+        margin-left: 6%;
+        margin-top: 12%;
+    }
+
+    .icon{
+        filter: grayscale(0%);
+    }
+
+    .titulo_portafolio{
+        margin-bottom: 40px;
+        margin-left: 10px;
+    }
 }
   
