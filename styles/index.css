@@ -19,6 +19,10 @@ html{
 	color:  #E8EAEB;
 	font-weight:1px;
 }
+
+body{
+    overflow-x: hidden;
+}
 .laia{
 	color:  #5dc1b9;
 	width: 250px;

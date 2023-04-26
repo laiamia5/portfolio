@@ -136,6 +136,7 @@ header{
         background-color: inherit;
         margin-left: 5%;
         margin-right: 3%;
+        max-height: 81px;
     }
 
 
