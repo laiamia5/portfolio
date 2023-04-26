@@ -569,10 +569,18 @@ header{
         margin-top: 0%;
     }
     /* ----------portafolio----------------------- */
-    .contenedor_card_portafolio {
+    /* .contenedor_card_portafolio {
         margin-left: 18%;
         margin-top: 0%;
         margin-bottom: 7%;
+    } */
+
+    .contenedor_card_portafolio {
+        /* margin-left: 18%; */
+        margin-top: 0%;
+        margin-bottom: 7%;
+        width: 350px;
+        height: 350px;
     }
     /* ------------------footer--------------------------------- */
 
