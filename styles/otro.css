@@ -582,6 +582,11 @@ header{
         width: 350px;
         height: 370px;
     }
+
+    .contenedor_card_portafolio button {
+        width: 150px;
+        height: 30px;
+    }
     /* ------------------footer--------------------------------- */
 
     .contenedor_footer{
