@@ -151,7 +151,9 @@ header{
         display: flex;
         flex-wrap: wrap;
     }
-
+    .contenedor_contacto input {
+        background-color: #2e2d2d;
+    }
 
     .contenedor_contacto > h2{
         /* margin-left: 40% ; */
@@ -170,6 +172,15 @@ header{
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
     }
+    input::placeholder, textarea::placeholder{
+    padding-left: 10px;
+    font-size: 14px;
+    }
+    input, textarea{
+        padding-left: 10px;
+    font-size: 14px;
+
+    }
 
     .contenedor_contacto input{
         outline: none;
@@ -179,7 +190,6 @@ header{
         margin-top: 5%;
         margin-left: 4%;
         transition: .5s;
-        background-color: inherit;
         border-radius: 5px;
     }
 
@@ -485,6 +495,10 @@ header{
 }
 
 @media (max-width: 480px){
+    /* -------------------------------inicio---------------------------------------- */
+    body{
+        overflow-x: hidden;
+    }
     .ul_header{
         display: none;
     }
@@ -509,11 +523,77 @@ header{
         background-color: rgba(32, 32, 32, 0.678);
     }
     .visible{
-        background-color: transparent;
+        background-color: transparent !important;
     }
 
     .visible > ul {
+        background-color: inherit !important;
+    }
+    .visible > ul > li{
+        background-color: transparent !important;
+    }
+
+    .content{
         background-color: transparent;
     }
+
+    .curriculum{
+        display: none;
+    }
+/* ------------------------------------------contacto---------------------------------- */
+    .img_contacto{
+        display: none;
+    }
+
+    .contenedor_contacto{
+        background-color: #2b2a2a;
+    }
+
+    .contenedor_contacto > form{
+        background-color: #2b2a2a;
+        width: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    #contacto{
+        background-color: inherit;
+        margin-left: 30%;
+    }
+
+    .contenedor_contacto > form > button {
+        /* margin-top: 38%;
+        right: 35%; */
+        position: relative;
+        margin-left: 270px;
+        margin-top: 0%;
+    }
+    /* ----------portafolio----------------------- */
+    .contenedor_card_portafolio {
+        margin-left: 18%;
+        margin-top: 0%;
+        margin-bottom: 7%;
+    }
+    /* ------------------footer--------------------------------- */
+
+    .contenedor_footer{
+        height: 120px;
+        margin-top: 15%;
+    }
+
+    .contenedor_footer p {
+        margin-left: 25%;
+        margin-top: 20%;
+    }
+
+    .contenedor_footer a:first-child {
+        margin-left: 16%;
+    }
+
+    .contenedor_footer a {
+        margin-left: 3.5%;
+        margin-top: 4%;
+    }
+
 }
   
