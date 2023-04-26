@@ -475,3 +475,9 @@ header{
 @media (max-width: 1505px){
 
 } */
+
+@media (min-width: 1810px){
+    .presentacion{
+        transform: scale(2);
+    }
+}
