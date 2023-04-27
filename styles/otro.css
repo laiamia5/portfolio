@@ -668,11 +668,13 @@ header{
 
     .contenedor_titulo_sobre_mi{
         background-color: inherit;
+        margin-top: 6%;
     }
     .sobre_mi_titulo{
         margin-left: 0;
         padding-left: 35%;
-        padding-top: 5%;
+        padding-top: 0%;
+        margin-top: 0%;
     }
 
     .presentacion_botones {
@@ -682,6 +684,10 @@ header{
 
     .boton1{
         margin-left: 26%;
+    }
+
+    .fa-brands{
+        transform: scale(1.5);
     }
 }
   
