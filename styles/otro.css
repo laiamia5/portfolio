@@ -577,12 +577,18 @@ header{
     }
 
     .contenedor_contacto > form > button {
-        /* margin-top: 38%;
-        right: 35%; */
+        
         position: relative;
-        margin-left: 270px;
-        margin-top: 0%;
+        margin-left: 75%;
+        margin-top: 5%;
+
     }
+
+    .contenedor_contacto > form > input {
+        width: 90%;
+        height: 50px;
+    }
+
     /* ----------portafolio----------------------- */
     /* .contenedor_card_portafolio {
         margin-left: 18%;
