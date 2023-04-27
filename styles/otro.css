@@ -150,7 +150,6 @@ header{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        margin-top: 30%;
     }
     .contenedor_contacto input {
         background-color: #2e2d2d;
@@ -467,7 +466,7 @@ header{
     } */
 
 
-/* ------------------------FOOTER------------------------------------------------------------ */
+/* ------------------------FOOTER ------------------------------------------------------------ */
     .contenedor_footer p{
         margin-top: 5%;
         font-size: 2vh;
@@ -508,7 +507,7 @@ header{
 }
 
 @media (max-width: 480px){
-    /* -------------------------------inicio---------------------------------------- */
+    /* -------------------------------inicio mobile---------------------------------------- */
     body{
         overflow-x: hidden;
     }
@@ -556,13 +555,14 @@ header{
     .curriculum{
         display: none;
     }
-/* ------------------------------------------contacto---------------------------------- */
+/* ------------------------------------------contacto mobile---------------------------------- */
     .img_contacto{
         display: none;
     }
     .contenedor_contacto{
         background-color: #2b2a2a;
         height: 600px !important;
+        margin-top: 30%;
     }
 
     .contenedor_contacto > form{
@@ -585,14 +585,19 @@ header{
 
     }
 
-    .contenedor_contacto > form > input {
+    .contenedor_contacto input {
         width: 100%;
         height: 50px;
         margin-left: 0%;
     }
 
+    .contenedor_contacto textarea {
+        width: 100%;
+        margin-left: 0%;
+    }
 
-    /* ----------portafolio----------------------- */
+
+    /* ----------portafolio-----mobile------------------ */
     /* .contenedor_card_portafolio {
         margin-left: 18%;
         margin-top: 0%;
@@ -626,7 +631,7 @@ header{
     .card_portafolio_descripcion{
         margin-top: 5%;
     }
-    /* ------------------footer--------------------------------- */
+    /* ------------------footer----mobile----------------------------- */
 
     .contenedor_footer{
         height: 170px;
