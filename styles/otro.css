@@ -461,6 +461,11 @@ header{
         margin-left: 47%;
     }
 
+    /* .contenedor_contacto {
+        height: 800px;
+    } */
+
+
 /* ------------------------FOOTER------------------------------------------------------------ */
     .contenedor_footer p{
         margin-top: 5%;
@@ -554,9 +559,9 @@ header{
     .img_contacto{
         display: none;
     }
-
     .contenedor_contacto{
         background-color: #2b2a2a;
+        height: 600px !important;
     }
 
     .contenedor_contacto > form{
@@ -590,7 +595,7 @@ header{
         margin-top: 0%;
         margin-bottom: 7%;
         width: 95%;
-        height: 430px;
+        height: 420px;
     }
 
     .contenedor_card_portafolio button {
