@@ -150,6 +150,7 @@ header{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        margin-top: 30%;
     }
     .contenedor_contacto input {
         background-color: #2e2d2d;
