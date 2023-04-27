@@ -644,6 +644,11 @@ header{
         margin-top: 4%;
         transform: scale(1.2);
         height: 60px;
+        margin-left: 6%;
+    }
+
+    .contenedor_footer i {
+        margin-left: 35%;
     }
 
 
