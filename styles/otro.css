@@ -5,6 +5,25 @@ header{
 .video_responsive{
     display: none;
 }
+
+.swal2-container{
+    background-color: #2e2d2d !important;
+}
+
+.swal2-popup{
+    background-color: #202020 !important;
+}
+
+.swal2-confirm{
+    background-color: #8ae0db !important;
+    color: #202020 !important;
+}
+
+#swal2-input:focus{
+    border: 1px solid #8ae0db !important;
+}
+
+
     /*--------------------------SKILLS------------------------------------------------------*/
 
 .contenedor_skills_portafolio{
