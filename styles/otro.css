@@ -518,12 +518,15 @@ header{
         height: 70px;
         background-color: rgba(32, 32, 32, 0.678);
         position: fixed;
+        backdrop-filter: blur(10px);
+        position: fixed;
     }
 
     .laia{
         margin-left: 2%;
         height: 45px;
-        background-color: rgba(32, 32, 32, 0.678);
+        background-color: transparent;
+        padding-top: 3%;
     }
     .visible{
         background-color: transparent !important;
@@ -628,8 +631,48 @@ header{
     }
 
     .titulo_portafolio{
-        margin-bottom: 40px;
-        margin-left: 10px;
+        margin-bottom: 50px;
+        margin-left: 30% !important;
+        margin-top: 15% !important;
+    }
+
+    /* ------------------------sobre mi ------------------------------------ */
+    .sobre_mi_cv {
+        margin-left: 28%;
+    }
+
+    .presentacion {
+        margin-left: 12%;
+    }
+
+    .contenedor_sobre_mi{
+        background-color: inherit;
+    }
+
+    .sobre_mi_img{
+        display: none;
+    }
+
+    .div_sobre_mi_parrafo{
+        max-height: 150px;
+        overflow: hidden;
+    }
+
+    .contenedor_datos_personales{
+        display: none;
+    }
+
+    .contenedor_sobre_mi{
+        background-color: inherit;
+    }
+
+    .contenedor_titulo_sobre_mi{
+        background-color: inherit;
+    }
+    .sobre_mi_titulo{
+        margin-left: 0;
+        padding-left: 35%;
+        padding-top: 10%;
     }
 }
   

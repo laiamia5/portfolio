@@ -26,9 +26,11 @@
 	</header>
 	<!-- -----------------------------------INICIO---------------------------------------- -->
 	<div class='body'>
-		<video class="video_responsive" autoplay="true" muted="true" loop="true" >
-			<source src="redes/back.mp4" type="video/mp4">
-		</video>
+		<div style="overflow: hidden;">
+			<video class="video_responsive" autoplay="true" muted="true" loop="true" >
+				<source src="redes/back.mp4" type="video/mp4">
+			</video>
+		</div>
 		<div class="content">
 			<div class="visible">   
 				<p> Hello </p>
@@ -42,15 +44,19 @@
 	</div>
 	<!-- --------------------------------SOBRE MI ------------------------------------------------------------- -->
 	<div class="contenedor_sobre_mi" id="sobre_mi">
-		<h2 class="sobre_mi_titulo">SOBRE MI</h2>
-
+		<div class="contenedor_titulo_sobre_mi" style="width: 100%;">
+			<h2 class="sobre_mi_titulo" data-aos="fade-up"
+			data-aos-anchor-placement="top-bottom">SOBRE MI</h2>
+		</div>
 		<img src="./redes/programador.jpg" alt="aj" class="sobre_mi_img">
-		<p class="sobre_mi_parrafo" data-aos="fade-down">hola! Soy Laia Pérez, tengo 20 años y soy Desarrolladora
-			Web full stack, hace un año estoy estudiando programación, enfocada principalmente en JavaScript en sus 
-			frameworks y librerías más conocidas como react, redux, nodejs, express, sequelize, entre muchas otras
-			no tan conocidas. Me especialicé en la estructura de una base de datos con SQL siendo más específica con PostgreSQL.
-			Siempre e mostrado un gran interes por el Desarrollo Web hice mi primera página a los 15 y desde ahí no pare. </p>
-
+		<div class="div_sobre_mi_parrafo">
+			<p class="sobre_mi_parrafo" data-aos="fade-down">hola! Soy Laia Pérez, tengo 20 años y soy Desarrolladora
+				Web full stack, hace un año estoy estudiando programación, enfocada principalmente en JavaScript en sus 
+				frameworks y librerías más conocidas como react, redux, nodejs, express, sequelize, entre muchas otras
+				no tan conocidas. <br>
+				Me especialicé en la estructura de una base de datos con SQL siendo más específica con PostgreSQL.
+				Siempre e mostrado un gran interes por el Desarrollo Web hice mi primera página a los 15 y desde ahí no pare. </p>
+		</div>
 		<div class="contenedor_datos_personales" data-aos="fade-right">
 			<h2 class="titulo_datos_personales">datos personales</h2>
 			<div style="display: flex;
@@ -80,7 +86,7 @@
 			<div class="contenedor_img_presentacion">
 				<img class='img_presentacion' src="./redes/lai.JPG">
 			</div>
-			<h1 class="presentacion_titulo">Laia Perez</h1>
+			<h1 class="presentacion_titulo">Laia Pérez</h1>
 			<p class="presentacion_parrafo">Desarrolladora Web - Full Stack</p>
 			<a href="https://www.linkedin.com/in/laia-m%C3%ADa-perez-029531245/" target="_blank"><button class="presentacion_botones boton1"><i class="fa-brands fa-linkedin-in"></i></button></a>
 			<a href="https://github.com/laiamia5" target="_blank"><button class="presentacion_botones boton2"><i class="fa-brands fa-github"></i></button></a>
@@ -163,8 +169,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="contenedor_skills_portafolio" data-aos="fade-up" >
-		<h2>SKILLS</h2>	
+	<div class="contenedor_skills_portafolio">
+			<h2  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">SKILLS</h2>	
 		<!-- --------------CARRUSEL-------------------------------------------------------------------------- -->
 
 		<div class="contenedor_skills" id="portafolio">
@@ -252,7 +259,8 @@
 
 
 
-		<h2 class="titulo_portafolio">PORTAFOLIO</h2>
+		<h2 class="titulo_portafolio"  data-aos="fade-up"
+		data-aos-anchor-placement="top-bottom">PORTAFOLIO</h2>
 		<div class="contenedor_portafolio" >
 			<div class="contenedor_card_portafolio" data-aos="flip-down">
 				<img src="./redes/img_portfolio.png">
