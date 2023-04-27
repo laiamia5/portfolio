@@ -299,6 +299,10 @@ header{
     margin-left: 36%;
 }
 
+.contenedor_icons_computer{
+    max-height: 25px; overflow: hidden; background-color: inherit;
+}
+
 /* ----------------------------------------------------------MEDIAS---------------------------------------------
  */
 
@@ -585,13 +589,23 @@ header{
         /* margin-left: 18%; */
         margin-top: 0%;
         margin-bottom: 7%;
-        width: 350px;
+        width: 95%;
         height: 400px;
     }
 
     .contenedor_card_portafolio button {
         width: 150px;
         height: 30px;
+    }
+
+    .card_portafolio_icon{
+        transform: scale(1.5);
+        margin-top: 5px;
+    }
+
+    .contenedor_icons_computer{
+        max-height: 39px !important; 
+        height: 35px;
     }
     /* ------------------footer--------------------------------- */
 
@@ -639,6 +653,7 @@ header{
     /* ------------------------sobre mi ------------------------------------ */
     .sobre_mi_cv {
         margin-left: 28%;
+        margin-top: 6%;
     }
 
     .presentacion {
