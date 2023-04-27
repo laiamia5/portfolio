@@ -620,9 +620,15 @@ header{
     /* ------------------footer--------------------------------- */
 
     .contenedor_footer{
-        height: 120px;
+        height: 140px;
         margin-top: 0%;
     }
+
+    .contenedor_footer div{
+        width: 50px;
+        height: 50px;
+    }
+
 
     .contenedor_footer p {
         margin-left: 25%;
@@ -637,7 +643,7 @@ header{
         margin-left: 3.5%;
         margin-top: 4%;
     }
-
+/* ------------------------------------------------------------- */
     .contenedor_skills{
         display: flex;
         flex-wrap: nowrap;
