@@ -621,7 +621,7 @@ header{
 
     .contenedor_footer{
         height: 120px;
-        margin-top: 15%;
+        margin-top: 0%;
     }
 
     .contenedor_footer p {
@@ -630,7 +630,7 @@ header{
     }
 
     .contenedor_footer a:first-child {
-        margin-left: 16%;
+        margin-left: 5%;
     }
 
     .contenedor_footer a {
