@@ -627,12 +627,12 @@ header{
     .contenedor_footer div{
         width: 50px;
         height: 50px;
+        margin-top: 30%;
     }
-
 
     .contenedor_footer p {
         margin-left: 25%;
-        margin-top: 20%;
+        margin-top: 30%;
     }
 
     .contenedor_footer a:first-child {
@@ -640,10 +640,13 @@ header{
     }
 
     .contenedor_footer a {
-        margin-left: 3.5%;
+        margin-left: 5.5%;
         margin-top: 4%;
         transform: scale(1.2);
+        height: 60px;
     }
+
+
 /* ------------------------------------------------------------- */
     .contenedor_skills{
         display: flex;
