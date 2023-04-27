@@ -625,8 +625,8 @@ header{
     }
 
     .contenedor_footer div{
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 
 
@@ -642,7 +642,7 @@ header{
     .contenedor_footer a {
         margin-left: 3.5%;
         margin-top: 4%;
-        transform: scale(1.7);
+        transform: scale(1.4);
     }
 /* ------------------------------------------------------------- */
     .contenedor_skills{
