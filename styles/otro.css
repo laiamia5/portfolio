@@ -590,7 +590,7 @@ header{
         margin-top: 0%;
         margin-bottom: 7%;
         width: 95%;
-        height: 400px;
+        height: 460px;
     }
 
     .contenedor_card_portafolio button {
@@ -601,11 +601,16 @@ header{
     .card_portafolio_icon{
         transform: scale(1.5);
         margin-top: 5px;
+        margin-left: 4%;
     }
 
     .contenedor_icons_computer{
         max-height: 39px !important; 
         height: 35px;
+    }
+
+    .card_portafolio_descripcion{
+        margin-top: 5%;
     }
     /* ------------------footer--------------------------------- */
 
