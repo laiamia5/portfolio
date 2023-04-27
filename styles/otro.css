@@ -577,10 +577,10 @@ header{
     }
 
     .contenedor_contacto > form > button {
-        
         position: relative;
         margin-left: 75%;
         margin-top: 5%;
+        font-size: 18px;
 
     }
 
