@@ -13,7 +13,8 @@ window.addEventListener('load', async () => {
           autocorrect: 'off'
         }
       })
-      nombre = password
+
+      password ? nombre = password  : nombre = ' friend '
 
       let usuario = document.getElementById('nombre_usuario')
         usuario.innerText = ` ${nombre} `
